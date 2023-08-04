@@ -1,7 +1,7 @@
 <template>
 <div class="container">
   <h2 class="app-heading">My Task List</h2>
-  <p class="author">Made by <a href="https://redhatdev16.github.io/portfolio" target="_blank">redhatdev16</a></p>
+  <p class="author">Made by <a href="https://luckydevn16.github.io/portfolio" target="_blank">luckydevn16</a></p>
   <form @submit.prevent="addNewTask()" class="task-form">
     <div class="input-wrapper">
       <input type="text" class="input" v-model="newTask" placeholder="Enter the task">
